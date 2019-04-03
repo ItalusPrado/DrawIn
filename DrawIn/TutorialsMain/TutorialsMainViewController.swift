@@ -13,6 +13,8 @@ class TutorialsMainViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
     
+    let tutorials = TutorialMainViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -36,14 +38,16 @@ class TutorialsMainViewController: UIViewController {
 extension TutorialsMainViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return tutorials.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "main", for: indexPath) as! MainCollectionViewCell
         
-        cell.title.text = "\(indexPath.row)"
+        cell.title.text = tutorials.title[indexPath.row]
+        cell.title.backgroundColor = tutorials.color[indexPath.row]
+        cell.image.image = tutorials.image[indexPath.row]
         return cell
     }
     

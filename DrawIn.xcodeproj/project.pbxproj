@@ -10,6 +10,11 @@
 		1D30A5F67845468708926DB5 /* Pods_DrawIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F795E75160BEE625694702 /* Pods_DrawIn.framework */; };
 		8A9776CE2253E4C70081A364 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9776CC2253E4C70081A364 /* TabBarViewController.swift */; };
 		8A9776CF2253E4C70081A364 /* TabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9776CD2253E4C70081A364 /* TabBarViewController.xib */; };
+		8A9776D82254DC990081A364 /* TutorialMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9776D72254DC990081A364 /* TutorialMainViewModel.swift */; };
+		8A9776DB2254DCB70081A364 /* TutorialsMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9776DA2254DCB70081A364 /* TutorialsMain.swift */; };
+		8A9776DD2254DE6F0081A364 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9776DC2254DE6F0081A364 /* Colors.swift */; };
+		8A9776E022555EDA0081A364 /* TutorialRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9776DF22555EDA0081A364 /* TutorialRepository.swift */; };
+		8A9776E2225565870081A364 /* Tutorials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A9776E1225565870081A364 /* Tutorials.plist */; };
 		8AB6A6752245CA52001FED05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6A6742245CA52001FED05 /* AppDelegate.swift */; };
 		8AB6A6772245CA52001FED05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6A6762245CA52001FED05 /* ViewController.swift */; };
 		8AB6A67C2245CA55001FED05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB6A67B2245CA55001FED05 /* Assets.xcassets */; };
@@ -46,6 +51,11 @@
 		4FC90EC42965DEA205519A7B /* Pods-DrawIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawIn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrawIn/Pods-DrawIn.debug.xcconfig"; sourceTree = "<group>"; };
 		8A9776CC2253E4C70081A364 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		8A9776CD2253E4C70081A364 /* TabBarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarViewController.xib; sourceTree = "<group>"; };
+		8A9776D72254DC990081A364 /* TutorialMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialMainViewModel.swift; sourceTree = "<group>"; };
+		8A9776DA2254DCB70081A364 /* TutorialsMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialsMain.swift; sourceTree = "<group>"; };
+		8A9776DC2254DE6F0081A364 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		8A9776DF22555EDA0081A364 /* TutorialRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialRepository.swift; sourceTree = "<group>"; };
+		8A9776E1225565870081A364 /* Tutorials.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Tutorials.plist; sourceTree = "<group>"; };
 		8AB6A6712245CA52001FED05 /* DrawIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB6A6742245CA52001FED05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AB6A6762245CA52001FED05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +121,31 @@
 			path = TabbarController;
 			sourceTree = "<group>";
 		};
+		8A9776D42254DBBC0081A364 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A9776E1225565870081A364 /* Tutorials.plist */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		8A9776D92254DCA60081A364 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A9776DA2254DCB70081A364 /* TutorialsMain.swift */,
+				8A9776DC2254DE6F0081A364 /* Colors.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A9776DE22555EC60081A364 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				8A9776DF22555EDA0081A364 /* TutorialRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 		8AB6A6682245CA52001FED05 = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +171,9 @@
 		8AB6A6732245CA52001FED05 /* DrawIn */ = {
 			isa = PBXGroup;
 			children = (
+				8A9776DE22555EC60081A364 /* Repository */,
+				8A9776D92254DCA60081A364 /* Model */,
+				8A9776D42254DBBC0081A364 /* Files */,
 				8A9776CB2253E4A30081A364 /* TabbarController */,
 				8AB6A6AE2245CEAA001FED05 /* CollectionCells */,
 				8AB6A6A72245CD10001FED05 /* NavigationController */,
@@ -172,6 +210,7 @@
 			children = (
 				8AB6A6B32245D17E001FED05 /* TutorialsMainViewController.swift */,
 				8AB6A6B42245D17E001FED05 /* TutorialsMainViewController.xib */,
+				8A9776D72254DC990081A364 /* TutorialMainViewModel.swift */,
 			);
 			path = TutorialsMain;
 			sourceTree = "<group>";
@@ -308,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A9776E2225565870081A364 /* Tutorials.plist in Resources */,
 				8AB6A6AD2245CD71001FED05 /* NavigationViewController.xib in Resources */,
 				8AB6A67F2245CA55001FED05 /* LaunchScreen.storyboard in Resources */,
 				8AB6A6B22245CED2001FED05 /* MainCollectionViewCell.xib in Resources */,
@@ -386,11 +426,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AB6A6B52245D17E001FED05 /* TutorialsMainViewController.swift in Sources */,
+				8A9776E022555EDA0081A364 /* TutorialRepository.swift in Sources */,
+				8A9776DD2254DE6F0081A364 /* Colors.swift in Sources */,
 				8AB6A6AC2245CD71001FED05 /* NavigationViewController.swift in Sources */,
 				8AB6A6B12245CED2001FED05 /* MainCollectionViewCell.swift in Sources */,
 				8AB6A6772245CA52001FED05 /* ViewController.swift in Sources */,
 				8A9776CE2253E4C70081A364 /* TabBarViewController.swift in Sources */,
 				8AB6A6752245CA52001FED05 /* AppDelegate.swift in Sources */,
+				8A9776DB2254DCB70081A364 /* TutorialsMain.swift in Sources */,
+				8A9776D82254DC990081A364 /* TutorialMainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

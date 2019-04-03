@@ -26,18 +26,26 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="if5-r2-EHu">
+                        <rect key="frame" x="0.0" y="0.0" width="163" height="165"/>
+                    </imageView>
                 </subviews>
             </view>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
+                <constraint firstItem="if5-r2-EHu" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Hyi-L1-QeF"/>
                 <constraint firstAttribute="bottom" secondItem="kRS-Ge-W3i" secondAttribute="bottom" id="Ril-Hz-HhJ"/>
                 <constraint firstItem="kRS-Ge-W3i" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="VKh-qH-cX7"/>
+                <constraint firstAttribute="trailing" secondItem="if5-r2-EHu" secondAttribute="trailing" id="es8-JF-tn8"/>
                 <constraint firstAttribute="trailing" secondItem="kRS-Ge-W3i" secondAttribute="trailing" id="h5N-sq-i1l"/>
+                <constraint firstItem="kRS-Ge-W3i" firstAttribute="top" secondItem="if5-r2-EHu" secondAttribute="bottom" id="qMy-Ba-Rkg"/>
                 <constraint firstItem="kRS-Ge-W3i" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.2" id="vxE-8q-uxA"/>
+                <constraint firstItem="if5-r2-EHu" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="yCm-1i-TcZ"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="163" height="206"/>
             <connections>
+                <outlet property="image" destination="if5-r2-EHu" id="5mJ-uQ-G7W"/>
                 <outlet property="title" destination="kRS-Ge-W3i" id="r0U-r5-kPm"/>
             </connections>
             <point key="canvasLocation" x="188" y="118.74062968515743"/>
