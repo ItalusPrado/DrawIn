@@ -21,7 +21,6 @@ class TutorialRepository{
             catch { print("Error: Bad data format for property list") }
         }
         
-        
         return tutorials
     }
     

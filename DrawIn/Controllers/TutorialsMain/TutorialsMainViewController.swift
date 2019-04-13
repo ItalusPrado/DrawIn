@@ -48,6 +48,7 @@ extension TutorialsMainViewController: UICollectionViewDelegate, UICollectionVie
         cell.title.text = tutorials.title[indexPath.row]
         cell.title.backgroundColor = tutorials.color[indexPath.row]
         cell.image.image = tutorials.image[indexPath.row]
+        
         return cell
     }
     

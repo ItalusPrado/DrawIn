@@ -146,6 +146,24 @@
 			path = Repository;
 			sourceTree = "<group>";
 		};
+		8AAF1FD222627E0600E5C6F6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A9776CB2253E4A30081A364 /* TabbarController */,
+				8AB6A6A72245CD10001FED05 /* NavigationController */,
+				8AB6A6A22245CC6A001FED05 /* TutorialsMain */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8AAF1FD322627E4000E5C6F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8AB6A6AE2245CEAA001FED05 /* CollectionCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8AB6A6682245CA52001FED05 = {
 			isa = PBXGroup;
 			children = (
@@ -171,13 +189,11 @@
 		8AB6A6732245CA52001FED05 /* DrawIn */ = {
 			isa = PBXGroup;
 			children = (
+				8AAF1FD322627E4000E5C6F6 /* Views */,
+				8AAF1FD222627E0600E5C6F6 /* Controllers */,
 				8A9776DE22555EC60081A364 /* Repository */,
 				8A9776D92254DCA60081A364 /* Model */,
 				8A9776D42254DBBC0081A364 /* Files */,
-				8A9776CB2253E4A30081A364 /* TabbarController */,
-				8AB6A6AE2245CEAA001FED05 /* CollectionCells */,
-				8AB6A6A72245CD10001FED05 /* NavigationController */,
-				8AB6A6A22245CC6A001FED05 /* TutorialsMain */,
 				8AB6A6742245CA52001FED05 /* AppDelegate.swift */,
 				8AB6A6762245CA52001FED05 /* ViewController.swift */,
 				8AB6A67B2245CA55001FED05 /* Assets.xcassets */,
