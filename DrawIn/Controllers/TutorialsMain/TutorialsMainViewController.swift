@@ -17,8 +17,6 @@ class TutorialsMainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
 
         let layout = AnimatedCollectionViewLayout()
         layout.animator = LinearCardAttributesAnimator()
@@ -53,7 +51,7 @@ extension TutorialsMainViewController: UICollectionViewDelegate, UICollectionVie
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height-50)
+        return CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height-30)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {

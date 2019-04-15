@@ -8,7 +8,7 @@
 		<key>image</key>
 		<string>tutorials_cover_hands</string>
 		<key>color</key>
-		<string>yellow</string>
+		<real>16498733</real>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -16,7 +16,7 @@
 		<key>image</key>
 		<string>tutorials_cover_eyes</string>
 		<key>color</key>
-		<string>green</string>
+		<integer>7785489</integer>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -24,7 +24,7 @@
 		<key>image</key>
 		<string>tutorials_cover_heads</string>
 		<key>color</key>
-		<string>purple</string>
+		<integer>8655308</integer>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -32,7 +32,7 @@
 		<key>image</key>
 		<string>tutorials_cover_feet</string>
 		<key>color</key>
-		<string>blue</string>
+		<integer>1166512</integer>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -40,7 +40,7 @@
 		<key>image</key>
 		<string>tutorials_cover_bodies</string>
 		<key>color</key>
-		<string>red</string>
+		<integer>15731307</integer>
 	</dict>
 </array>
 </plist>

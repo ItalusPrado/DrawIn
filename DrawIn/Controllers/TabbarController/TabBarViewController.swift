@@ -12,11 +12,9 @@ class TabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let controllers = [TutorialsMainViewController()]
-        self.viewControllers = controllers
-
         
+        self.tabBar.barTintColor = UIColor(hex: 0x2A2A2A)
+
     }
 
 }

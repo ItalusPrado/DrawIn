@@ -15,6 +15,14 @@
 		8A9776DD2254DE6F0081A364 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9776DC2254DE6F0081A364 /* Colors.swift */; };
 		8A9776E022555EDA0081A364 /* TutorialRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9776DF22555EDA0081A364 /* TutorialRepository.swift */; };
 		8A9776E2225565870081A364 /* Tutorials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A9776E1225565870081A364 /* Tutorials.plist */; };
+		8AAF1FD622627EC400E5C6F6 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF1FD522627EC400E5C6F6 /* CoordinatorProtocol.swift */; };
+		8AAF1FD822627EF600E5C6F6 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF1FD722627EF600E5C6F6 /* ApplicationCoordinator.swift */; };
+		8AAF1FDA22627FFD00E5C6F6 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF1FD922627FFD00E5C6F6 /* TabBarCoordinator.swift */; };
+		8AAF1FDC2262804D00E5C6F6 /* TutorialsCoverCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF1FDB2262804D00E5C6F6 /* TutorialsCoverCoordinator.swift */; };
+		8AAF1FDE22628BE400E5C6F6 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF1FDD22628BE400E5C6F6 /* UIColorExtension.swift */; };
+		8AAF1FE222629AD500E5C6F6 /* FreeHandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF1FE022629AD500E5C6F6 /* FreeHandViewController.swift */; };
+		8AAF1FE322629AD500E5C6F6 /* FreeHandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AAF1FE122629AD500E5C6F6 /* FreeHandViewController.xib */; };
+		8AAF1FE522629B0700E5C6F6 /* FreeHandCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF1FE422629B0700E5C6F6 /* FreeHandCoordinator.swift */; };
 		8AB6A6752245CA52001FED05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6A6742245CA52001FED05 /* AppDelegate.swift */; };
 		8AB6A6772245CA52001FED05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6A6762245CA52001FED05 /* ViewController.swift */; };
 		8AB6A67C2245CA55001FED05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB6A67B2245CA55001FED05 /* Assets.xcassets */; };
@@ -22,7 +30,6 @@
 		8AB6A68A2245CA56001FED05 /* DrawInTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6A6892245CA56001FED05 /* DrawInTests.swift */; };
 		8AB6A6952245CA56001FED05 /* DrawInUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6A6942245CA56001FED05 /* DrawInUITests.swift */; };
 		8AB6A6AC2245CD71001FED05 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6A6AA2245CD70001FED05 /* NavigationViewController.swift */; };
-		8AB6A6AD2245CD71001FED05 /* NavigationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB6A6AB2245CD70001FED05 /* NavigationViewController.xib */; };
 		8AB6A6B12245CED2001FED05 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6A6AF2245CED2001FED05 /* MainCollectionViewCell.swift */; };
 		8AB6A6B22245CED2001FED05 /* MainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB6A6B02245CED2001FED05 /* MainCollectionViewCell.xib */; };
 		8AB6A6B52245D17E001FED05 /* TutorialsMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6A6B32245D17E001FED05 /* TutorialsMainViewController.swift */; };
@@ -56,6 +63,14 @@
 		8A9776DC2254DE6F0081A364 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		8A9776DF22555EDA0081A364 /* TutorialRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialRepository.swift; sourceTree = "<group>"; };
 		8A9776E1225565870081A364 /* Tutorials.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Tutorials.plist; sourceTree = "<group>"; };
+		8AAF1FD522627EC400E5C6F6 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		8AAF1FD722627EF600E5C6F6 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+		8AAF1FD922627FFD00E5C6F6 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		8AAF1FDB2262804D00E5C6F6 /* TutorialsCoverCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialsCoverCoordinator.swift; sourceTree = "<group>"; };
+		8AAF1FDD22628BE400E5C6F6 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		8AAF1FE022629AD500E5C6F6 /* FreeHandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeHandViewController.swift; sourceTree = "<group>"; };
+		8AAF1FE122629AD500E5C6F6 /* FreeHandViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FreeHandViewController.xib; sourceTree = "<group>"; };
+		8AAF1FE422629B0700E5C6F6 /* FreeHandCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeHandCoordinator.swift; sourceTree = "<group>"; };
 		8AB6A6712245CA52001FED05 /* DrawIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB6A6742245CA52001FED05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AB6A6762245CA52001FED05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,7 +84,6 @@
 		8AB6A6942245CA56001FED05 /* DrawInUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawInUITests.swift; sourceTree = "<group>"; };
 		8AB6A6962245CA56001FED05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AB6A6AA2245CD70001FED05 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
-		8AB6A6AB2245CD70001FED05 /* NavigationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavigationViewController.xib; sourceTree = "<group>"; };
 		8AB6A6AF2245CED2001FED05 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		8AB6A6B02245CED2001FED05 /* MainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainCollectionViewCell.xib; sourceTree = "<group>"; };
 		8AB6A6B32245D17E001FED05 /* TutorialsMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialsMainViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +163,7 @@
 		8AAF1FD222627E0600E5C6F6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8AAF1FDF22629AAE00E5C6F6 /* FreeHandController */,
 				8A9776CB2253E4A30081A364 /* TabbarController */,
 				8AB6A6A72245CD10001FED05 /* NavigationController */,
 				8AB6A6A22245CC6A001FED05 /* TutorialsMain */,
@@ -162,6 +177,27 @@
 				8AB6A6AE2245CEAA001FED05 /* CollectionCells */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		8AAF1FD422627EAB00E5C6F6 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				8AAF1FD522627EC400E5C6F6 /* CoordinatorProtocol.swift */,
+				8AAF1FD722627EF600E5C6F6 /* ApplicationCoordinator.swift */,
+				8AAF1FD922627FFD00E5C6F6 /* TabBarCoordinator.swift */,
+				8AAF1FDB2262804D00E5C6F6 /* TutorialsCoverCoordinator.swift */,
+				8AAF1FE422629B0700E5C6F6 /* FreeHandCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		8AAF1FDF22629AAE00E5C6F6 /* FreeHandController */ = {
+			isa = PBXGroup;
+			children = (
+				8AAF1FE022629AD500E5C6F6 /* FreeHandViewController.swift */,
+				8AAF1FE122629AD500E5C6F6 /* FreeHandViewController.xib */,
+			);
+			path = FreeHandController;
 			sourceTree = "<group>";
 		};
 		8AB6A6682245CA52001FED05 = {
@@ -189,6 +225,7 @@
 		8AB6A6732245CA52001FED05 /* DrawIn */ = {
 			isa = PBXGroup;
 			children = (
+				8AAF1FD422627EAB00E5C6F6 /* Coordinator */,
 				8AAF1FD322627E4000E5C6F6 /* Views */,
 				8AAF1FD222627E0600E5C6F6 /* Controllers */,
 				8A9776DE22555EC60081A364 /* Repository */,
@@ -199,6 +236,7 @@
 				8AB6A67B2245CA55001FED05 /* Assets.xcassets */,
 				8AB6A67D2245CA55001FED05 /* LaunchScreen.storyboard */,
 				8AB6A6802245CA55001FED05 /* Info.plist */,
+				8AAF1FDD22628BE400E5C6F6 /* UIColorExtension.swift */,
 			);
 			path = DrawIn;
 			sourceTree = "<group>";
@@ -235,7 +273,6 @@
 			isa = PBXGroup;
 			children = (
 				8AB6A6AA2245CD70001FED05 /* NavigationViewController.swift */,
-				8AB6A6AB2245CD70001FED05 /* NavigationViewController.xib */,
 			);
 			path = NavigationController;
 			sourceTree = "<group>";
@@ -364,9 +401,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A9776E2225565870081A364 /* Tutorials.plist in Resources */,
-				8AB6A6AD2245CD71001FED05 /* NavigationViewController.xib in Resources */,
 				8AB6A67F2245CA55001FED05 /* LaunchScreen.storyboard in Resources */,
 				8AB6A6B22245CED2001FED05 /* MainCollectionViewCell.xib in Resources */,
+				8AAF1FE322629AD500E5C6F6 /* FreeHandViewController.xib in Resources */,
 				8AB6A6B62245D17E001FED05 /* TutorialsMainViewController.xib in Resources */,
 				8A9776CF2253E4C70081A364 /* TabBarViewController.xib in Resources */,
 				8AB6A67C2245CA55001FED05 /* Assets.xcassets in Resources */,
@@ -443,14 +480,21 @@
 			files = (
 				8AB6A6B52245D17E001FED05 /* TutorialsMainViewController.swift in Sources */,
 				8A9776E022555EDA0081A364 /* TutorialRepository.swift in Sources */,
+				8AAF1FDE22628BE400E5C6F6 /* UIColorExtension.swift in Sources */,
+				8AAF1FE222629AD500E5C6F6 /* FreeHandViewController.swift in Sources */,
 				8A9776DD2254DE6F0081A364 /* Colors.swift in Sources */,
 				8AB6A6AC2245CD71001FED05 /* NavigationViewController.swift in Sources */,
+				8AAF1FDC2262804D00E5C6F6 /* TutorialsCoverCoordinator.swift in Sources */,
 				8AB6A6B12245CED2001FED05 /* MainCollectionViewCell.swift in Sources */,
 				8AB6A6772245CA52001FED05 /* ViewController.swift in Sources */,
+				8AAF1FDA22627FFD00E5C6F6 /* TabBarCoordinator.swift in Sources */,
+				8AAF1FD622627EC400E5C6F6 /* CoordinatorProtocol.swift in Sources */,
 				8A9776CE2253E4C70081A364 /* TabBarViewController.swift in Sources */,
 				8AB6A6752245CA52001FED05 /* AppDelegate.swift in Sources */,
+				8AAF1FE522629B0700E5C6F6 /* FreeHandCoordinator.swift in Sources */,
 				8A9776DB2254DCB70081A364 /* TutorialsMain.swift in Sources */,
 				8A9776D82254DC990081A364 /* TutorialMainViewModel.swift in Sources */,
+				8AAF1FD822627EF600E5C6F6 /* ApplicationCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,7 +17,7 @@ class TutorialMainViewModel {
         for info in arrayInfo{
             image.append(UIImage(named: info.image))
             title.append(info.title)
-            color.append(Colors.init(colorName: info.color).color)
+            color.append(UIColor(hex: info.color))//Colors.init(colorName: info.color).color)
         }
     }
 }
