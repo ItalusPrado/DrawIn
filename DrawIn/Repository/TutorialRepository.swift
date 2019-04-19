@@ -24,4 +24,17 @@ class TutorialRepository{
         return tutorials
     }
     
+    func getFreeHandOptions() -> [TutorialsMain] {
+        var options = [TutorialsMain]()
+        
+        if let dir = Bundle.main.path(forResource: "FreeHandOptions", ofType: "plist"), let info = try? Data(contentsOf: URL(fileURLWithPath: dir)) {
+            
+            do {
+                options = try PropertyListDecoder().decode([TutorialsMain].self, from: info)
+            }
+            catch { print("Error: Bad data format for property list") }
+        }
+        
+        return options
+    }
 }

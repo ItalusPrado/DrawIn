@@ -23,6 +23,8 @@
 		8AAF1FE222629AD500E5C6F6 /* FreeHandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF1FE022629AD500E5C6F6 /* FreeHandViewController.swift */; };
 		8AAF1FE322629AD500E5C6F6 /* FreeHandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AAF1FE122629AD500E5C6F6 /* FreeHandViewController.xib */; };
 		8AAF1FE522629B0700E5C6F6 /* FreeHandCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF1FE422629B0700E5C6F6 /* FreeHandCoordinator.swift */; };
+		8AAF1FE722654F9E00E5C6F6 /* FreeHandViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF1FE622654F9E00E5C6F6 /* FreeHandViewModel.swift */; };
+		8AAF1FE92265505800E5C6F6 /* FreeHandOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AAF1FE82265505800E5C6F6 /* FreeHandOptions.plist */; };
 		8AB6A6752245CA52001FED05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6A6742245CA52001FED05 /* AppDelegate.swift */; };
 		8AB6A6772245CA52001FED05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6A6762245CA52001FED05 /* ViewController.swift */; };
 		8AB6A67C2245CA55001FED05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB6A67B2245CA55001FED05 /* Assets.xcassets */; };
@@ -71,6 +73,8 @@
 		8AAF1FE022629AD500E5C6F6 /* FreeHandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeHandViewController.swift; sourceTree = "<group>"; };
 		8AAF1FE122629AD500E5C6F6 /* FreeHandViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FreeHandViewController.xib; sourceTree = "<group>"; };
 		8AAF1FE422629B0700E5C6F6 /* FreeHandCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeHandCoordinator.swift; sourceTree = "<group>"; };
+		8AAF1FE622654F9E00E5C6F6 /* FreeHandViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeHandViewModel.swift; sourceTree = "<group>"; };
+		8AAF1FE82265505800E5C6F6 /* FreeHandOptions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FreeHandOptions.plist; sourceTree = "<group>"; };
 		8AB6A6712245CA52001FED05 /* DrawIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB6A6742245CA52001FED05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AB6A6762245CA52001FED05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				8A9776E1225565870081A364 /* Tutorials.plist */,
+				8AAF1FE82265505800E5C6F6 /* FreeHandOptions.plist */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 			children = (
 				8AAF1FE022629AD500E5C6F6 /* FreeHandViewController.swift */,
 				8AAF1FE122629AD500E5C6F6 /* FreeHandViewController.xib */,
+				8AAF1FE622654F9E00E5C6F6 /* FreeHandViewModel.swift */,
 			);
 			path = FreeHandController;
 			sourceTree = "<group>";
@@ -400,6 +406,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AAF1FE92265505800E5C6F6 /* FreeHandOptions.plist in Resources */,
 				8A9776E2225565870081A364 /* Tutorials.plist in Resources */,
 				8AB6A67F2245CA55001FED05 /* LaunchScreen.storyboard in Resources */,
 				8AB6A6B22245CED2001FED05 /* MainCollectionViewCell.xib in Resources */,
@@ -481,6 +488,7 @@
 				8AB6A6B52245D17E001FED05 /* TutorialsMainViewController.swift in Sources */,
 				8A9776E022555EDA0081A364 /* TutorialRepository.swift in Sources */,
 				8AAF1FDE22628BE400E5C6F6 /* UIColorExtension.swift in Sources */,
+				8AAF1FE722654F9E00E5C6F6 /* FreeHandViewModel.swift in Sources */,
 				8AAF1FE222629AD500E5C6F6 /* FreeHandViewController.swift in Sources */,
 				8A9776DD2254DE6F0081A364 /* Colors.swift in Sources */,
 				8AB6A6AC2245CD71001FED05 /* NavigationViewController.swift in Sources */,
